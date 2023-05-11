@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['vincent_gemini@sina.com']
   spec.description   = %q{A short description of cocoapods-mxz.}
   spec.summary       = %q{A longer description of cocoapods-mxz.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-mxz'
+  spec.homepage      = 'https://github.com/vincentgemini/mxz.git'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
