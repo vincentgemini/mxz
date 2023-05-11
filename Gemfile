@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Specify your gem's dependencies in cocoapods-mxz.gemspec
-gemspec
+gem 'cocoapods-mxz', path: './'
 
 group :development do
   gem 'cocoapods'
@@ -10,4 +10,7 @@ group :development do
   gem 'bacon'
   gem 'mocha-on-bacon'
   gem 'prettybacon'
+
+  gem 'ruby-debug-ide'
+  gem 'debase'
 end
